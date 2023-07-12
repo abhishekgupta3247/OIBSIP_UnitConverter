@@ -29,18 +29,19 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_margin="10dp"
+        android:background="#736A6A"
         android:gravity="center"
+        android:orientation="horizontal"
         tools:context=".MainActivity">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/cf"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_margin="10dp"
             android:contentDescription="@string/ctof"
             android:onClick="ctof"
-            android:layout_marginEnd="10dp"
             android:src="@drawable/cf"
             tools:ignore="UsingOnClickInXml" />
 
@@ -48,64 +49,71 @@
             android:id="@+id/ck"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/ck"
-            android:layout_marginStart="10dp"
+            android:layout_margin="10dp"
             android:onClick="ctok"
-            />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:gravity="center"
-        android:orientation="horizontal"
-        tools:context=".MainActivity">
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/fc"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/fc"
-            android:layout_marginEnd="10dp"
-            android:onClick="ftoc"
+            android:src="@drawable/ck"
             tools:ignore="UsingOnClickInXml" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/fk"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/fk"
-            android:layout_marginStart="10dp"
+            android:layout_margin="10dp"
             android:onClick="ftok"
+            android:src="@drawable/fk"
             tools:ignore="UsingOnClickInXml" />
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_margin="10dp"
+        android:background="#736A6A"
         android:gravity="center"
+        android:orientation="horizontal"
         tools:context=".MainActivity">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fc"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:onClick="ftoc"
+            android:src="@drawable/fc"
+            tools:ignore="UsingOnClickInXml" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/kc"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/kc"
-            android:layout_marginEnd="10dp"
+            android:layout_margin="10dp"
             android:onClick="ktoc"
+            android:src="@drawable/kc"
             tools:ignore="UsingOnClickInXml" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/kf"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/kf"
-            android:layout_marginStart="10dp"
+            android:layout_margin="10dp"
             android:onClick="ktof"
+            android:src="@drawable/kf"
             tools:ignore="UsingOnClickInXml" />
     </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:gravity="center"-->
+<!--        tools:context=".MainActivity">-->
+
+<!--        -->
+
+<!--        -->
+<!--    </LinearLayout>-->
 
     <LinearLayout
         android:id="@+id/lay"
